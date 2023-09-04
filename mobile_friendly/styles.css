@@ -1,0 +1,99 @@
+/* CSS styles for the elements in index.html */
+
+.header {
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+}
+
+/* Heading */
+.heading {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Bio Paragraph */
+.bio {
+    font-size: 30px;
+    color: #393939;
+}
+
+/* Centered Images */
+.center {
+    text-align: center;
+}
+
+/* Images */
+.artist-image,
+.album-image,
+.performance-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fame Question Heading */
+.fame-question {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Video Container */
+.video-container {
+    text-align: center;
+}
+
+/* YouTube Video */
+.video {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer Links */
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Header Link */
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* Table Styles */
+.accomplishments-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.accomplishment-description {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.accomplishment-date {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
