@@ -1,0 +1,124 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.nav li {
+    margin: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+b:link {
+    color: rgb(29, 29, 29);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+b:visited {
+    color: rgb(39, 0, 131);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+b:hover {
+    color: rgb(79, 79, 79);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20px; /* Increase the border-radius for rounded edges */
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Vertically align items to the top */
+}
+
+.rounded-image {
+    max-width: 700px; /* Adjust the width of the image to make it larger */
+    margin-right: 10px; /* Add space between image and text */
+}
+
+.text {
+    flex-grow: 1; /* Allow the text to take up available space */
+}
+
+.about-text {
+    color: rgba(82, 74, 130, 0.989);
+    font-size: 30px;
+    text-align: justify;
+}
