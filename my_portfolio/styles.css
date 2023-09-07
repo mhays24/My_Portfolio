@@ -1,14 +1,17 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Add box-sizing for consistent sizing */
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #79bbea;
 }
 
 .header, .nav, .section, .project, .footer {
@@ -18,7 +21,7 @@ body {
 
 .header {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
 }
 
 .nav ul {
@@ -70,12 +73,19 @@ body {
 }
 
 .section h2 {
-    font-size: 30px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
-.section p {
+.intro_body {
     font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project_body{
+    font-size: 16pt;
     line-height: 1.5;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -93,6 +103,69 @@ body {
 }
 
 .connect_with_me {
-    max-width: 4%;
+    max-width: 3%;
     height: auto;
+}
+
+.footer_title{
+    font-size: 20pt;
+}
+
+@media (max-width: 768px) {
+    .rounded-image {
+        border-radius: 50%;
+        max-width: 50%; /* Adjust image width for smaller screens */
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .section h2 {
+        font-size: 30px; /* Decrease font size for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .intro_body {
+        font-size: 18px; /* Decrease font size for smaller screens */
+        line-height: 1.5;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .project_body {
+        font-size: 14pt; /* Decrease font size for smaller screens */
+        line-height: 1.5;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    .skill_logo {
+        display: inline-block; /* Display the images inline for smaller screens */
+        max-width: 30px; /* Adjust maximum width for smaller screens */
+        margin: 0 10px; /* Add spacing between the stacked images */
+    }
+
+    .connect_with_me {
+        max-width: 20px; /* Adjust maximum width for smaller screens */
+        height: auto;
+    }
+
+    .footer_title {
+        font-size: 16pt; /* Decrease font size for smaller screens */
+    }
+
+    .nav {
+        font-size: 14px; /* Decrease font size for navigation links */
+    }
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .nav {
+        font-size: 14px; /* Decrease font size for navigation links */
+    }
 }
