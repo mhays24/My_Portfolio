@@ -58,7 +58,7 @@ body {
 }
 
 /* Remove redundant styles */
-.header h1 a {
+.h1 a {
     text-decoration: none;
     color: #fff;
 }
@@ -72,7 +72,7 @@ body {
     margin: 0 auto 20px;
 }
 
-.section h2 {
+h2 {
     font-size: 45px;
     margin-bottom: 20px;
 }
