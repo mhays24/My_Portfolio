@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Add box-sizing for consistent sizing */
+    box-sizing: border-box; 
 }
 
 html {
 scroll-behavior: smooth;
 }
 
-/* Basic styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #79bbea;
@@ -57,13 +57,13 @@ body {
     color: #fff;
 }
 
-/* Remove redundant styles */
+
 .h1 a {
     text-decoration: none;
     color: #fff;
 }
 
-/* New styles */
+
 .rounded-image {
     border-radius: 50%;
     max-width: 20%;
@@ -92,11 +92,10 @@ h2 {
 }
 
 .skills {
-    text-align: center; /* Center align the images */
+    text-align: center; 
 }
 
-.skill_logo {
-    display: block; /* Display the images as block elements to stack them */
+.skill_logos {
     max-width: 15%; /* Set the maximum width to 100% to make them responsive */
     margin: 0 auto; /* Center the images horizontally within the container */
     margin-bottom: 10px; /* Add some spacing between the stacked images */
@@ -110,6 +109,36 @@ h2 {
 .footer_title{
     font-size: 20pt;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 420px) {
     .rounded-image {
@@ -143,7 +172,7 @@ h2 {
         text-align: center;
     }
 
-    .skill_logo {
+    .skill_logos {
         display: inline-block; /* Display the images inline for smaller screens */
         max-width: 30px; /* Adjust maximum width for smaller screens */
         margin: 0 10px; /* Add spacing between the stacked images */
