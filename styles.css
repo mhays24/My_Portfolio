@@ -1,0 +1,180 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #89CFF0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.about-description {
+    font-size: 20px;
+}
+
+.section-container {
+    background-color: white;
+    padding: 60px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto;
+    margin-top: 90px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.python-skill-logo {
+    max-width: 10%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sql-skill-logo {
+    max-width: 5%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.html-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.css-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.java-script-skill-logo {
+    max-width: 5%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.django-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.java-skill-logo {
+    max-width: 4%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.spring-skill-logo {
+    max-width: 7%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.git-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.github-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* hover effect */
+.python-skill-logo:hover,
+.sql-skill-logo:hover,
+.html-skill-logo:hover,
+.css-skill-logo:hover,
+.java-script-skill-logo:hover,
+.django-skill-logo:hover,
+.java-skill-logo:hover,
+.spring-skill-logo:hover,
+.git-skill-logo:hover,
+.github-skill-logo:hover {
+    transform: scale(1.1);
+}
+
+.footer-image-container {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-image {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-image:hover {
+    transform: scale(1.2);
+}
+
+.footer-text {
+    display: none;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.footer-image-container:hover .footer-text {
+    display: block;
+}
+
+.project-image {
+    max-width: 25%;
+
+}
+
+.project-description {
+    max-width: 95%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1450px) {
+    #resume embed {
+        display: none;
+    }
+}
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 4;
+    opacity: 0.9;
+}
