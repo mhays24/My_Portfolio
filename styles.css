@@ -1,226 +1,160 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #89CFF0;
+    overflow-x: hidden;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #79bbea;
+.about-description {
+    font-size: 20px;
 }
 
-.description {
-    padding: 3px;
-
-}
-
-.section,
-.project {
-    text-align: center;
+.section-container {
+    background-color: white;
     padding: 20px;
-}
-
-.footer {
+    margin: 20px 0;
+    border-radius: 10px;
     text-align: center;
-    padding: 20px;
+    max-width: 80%;
+    margin: 20px auto;
 }
 
-.nav_header {
-    text-align: center;
-    background-color: #333;
-    color: #ffffff;
-}
-
-.click_bar {
-    list-style-type: none;
+.card {
     display: flex;
-    justify-content: center;
-    background-color: #444;
-    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-.header_links {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    margin: 20px;
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
 }
 
-.header_links:hover {
-    color: #79bbea;
+.python-skill-logo {
+    max-width: 8%;
+    height: auto;
+    margin: 10px;
 }
 
-.about-content,
-.project,
-.skills {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    padding: 20px;
+.sql-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+}
+
+.html-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+}
+
+.css-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+}
+
+.java-script-skill-logo {
+    max-width: 5%;
+    height: auto;
+    margin: 10px;
+}
+
+.django-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+}
+
+.java-skill-logo {
+    max-width: 3%;
+    height: auto;
+    margin: 10px;
+}
+
+.spring-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+}
+
+.git-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+}
+
+.github-skill-logo {
+    max-width: 6%;
+    height: auto;
+    margin: 10px;
+}
+
+/* hover effect */
+.python-skill-logo:hover,
+.sql-skill-logo:hover,
+.html-skill-logo:hover,
+.css-skill-logo:hover,
+.java-script-skill-logo:hover,
+.django-skill-logo:hover,
+.java-skill-logo:hover,
+.spring-skill-logo:hover,
+.git-skill-logo:hover,
+.github-skill-logo:hover {
+    transform: scale(1.1);
+}
+
+.footer-image-container {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-image {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-image:hover {
+    transform: scale(1.2);
+}
+
+.footer-text {
+    display: none;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.footer-image-container:hover .footer-text {
+    display: block;
 }
 
 .project-image {
     max-width: 25%;
-    height: auto;
+
 }
 
-.footer {
-    background-color: #444;
-    color: #fff;
+.project-description {
+    max-width: 95%;
+    text-align: center;
 }
 
-.rounded-image {
-    border-radius: 60%;
-    width: 240px;
-    height: 200px;
-    object-fit: cover;
-    margin: 0 auto 20px;
-}
-
-.section_title {
-    font-size: 45px;
-    margin-bottom: 20px;
-}
-
-.intro_body {
-    font-size: 24px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.project_body {
-    font-size: 16pt;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.skill_logos {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    cursor: pointer;
-    transition: transform 0.1s ease-in-out;
-}
-
-.skill_logos:hover {
-    transform: scale(1.1);
-}
-
-.gmail_logo {
-    max-width: 52px;
-    height: auto;
-    margin: 6px;
-}
-
-.hub_logo {
-    max-width: 3%;
-    height: auto;
-    margin: 6px;
-}
-
-.footer_title {
-    font-size: 20pt;
-}
-
-.resume_button button {
-    font-size: 20px;
-    padding: 10px 20px;
-}
-
-.trademark {
-    float: right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 420px) {
-    .rounded-image {
-        border-radius: 50%;
-        max-width: 50%;
-        /* Adjust image width for smaller screens */
-        height: auto;
-        display: block;
-        margin: 0 auto 20px;
-    }
-
-    .section h2 {
-        font-size: 30px;
-        /* Decrease font size for smaller screens */
-        margin-bottom: 20px;
-    }
-
-    .intro_body {
-        font-size: 18px;
-        /* Decrease font size for smaller screens */
-        line-height: 1.5;
-        margin-bottom: 20px;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .project_body {
-        font-size: 14pt;
-        /* Decrease font size for smaller screens */
-        line-height: 1.5;
-        margin-bottom: 20px;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .skills {
-        text-align: center;
-    }
-
-    .skill_logos {
-        display: inline-block;
-        /* Display the images inline for smaller screens */
-        max-width: 30px;
-        /* Adjust maximum width for smaller screens */
-        margin: 0 10px;
-        /* Add spacing between the stacked images */
-    }
-
-    .connect_with_me {
-        max-width: 20px;
-        /* Adjust maximum width for smaller screens */
-        height: auto;
-    }
-
-    .footer_title {
-        font-size: 16pt;
-        /* Decrease font size for smaller screens */
-    }
-
-    .nav {
-        font-size: 6px;
-        /* Decrease font size for navigation links */
+@media screen and (max-width: 1450px) {
+    #resume embed {
+        display: none;
     }
 }
