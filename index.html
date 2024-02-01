@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="/Images/portfolio_logo.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="styles.css" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Matthew Hays</a>
+        <a class="navbar-brand header_title" href="#">Matthew Hays</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto header_links">
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
@@ -31,7 +32,7 @@
     </nav>
 
     <section id="about" class="section-container">
-        <h2>About Me</h2>
+        <h2 class="section_title">About Me</h2>
         <div>
             <img src="Images/matthew.JPG" alt="Your Image" style="max-width: 25%; border-radius: 5%;">
         </div>
@@ -49,10 +50,10 @@
 
     <!-- Projects Section -->
     <section id="projects" class="section-container">
-        <h2>Projects</h2>
+        <h2 class="section_title">Projects</h2>
         <div class="card">
             <h3>ADIT</h3>
-            <img src="/Images/adit_background1.jpg" alt="Project 1 Image" class="project-image">
+            <img src="/Images/adit_background.png" alt="Project 1 Image" class="project-image">
             <div class="project-description">
                 <a href="https://replit.com/@MatthewHays5/ADIT-Unit-2-P2?v=1" target="_blank"><button type="button">TRY ME!</button></a>
                 <p>Welcome to ADIT "Another Database Interface Tool" It lets you login to
@@ -74,7 +75,7 @@
 
     <!-- Skills Section -->
     <section id="skills" class="section-container">
-        <h2>Skills</h2>
+        <h2 class="section_title">Skills</h2>
         <div>
             <!-- Python -->
             <img src="Images/python_logo.png" alt="Python Logo" class="python-skill-logo" data-name="Python">
@@ -111,7 +112,7 @@
 
     <!-- Resume Section -->
     <section id="resume" class="section-container">
-        <h2>Resume</h2>
+        <h2 class="section_title">Resume</h2>
         <embed src="Matthew Hays resume.pdf" width="1170" height="740"><br>
         <p>
             Download my resume: <a href="Matthew Hays resume.pdf" target="_blank" download>Matthew Hays resume.pdf</a>
@@ -121,22 +122,22 @@
     <footer id="contact" class="text-center"
         style="background-color: #333; color: white; padding: 20px; margin-top: 30px;">
         <div>
-            <h3>Connect with me</h3>
+            <h3 class="section_title">Connect with me</h3>
             <div class="footer-image-container">
                 <a href="https://github.com/mhays24" target="_blank" title="GitHub">
-                    <img src="Images/github_logo.png" alt="GitHub Image" class="footer-image">
+                    <i class="fa-brands fa-github icons" style="color: #ffffff;"></i>
                     <span class="footer-text">GitHub</span>
                 </a>
             </div>
             <div class="footer-image-container">
                 <a href="mailto:matthewhays419@gmail.com" title="Email">
-                    <img src="Images/gmail_logo.png" alt="Email Image" class="footer-image">
+                    <i class="fa-solid fa-envelope icons" style="color: #ffffff;"></i>
                     <span class="footer-text">Email</span>
                 </a>
             </div>
             <div class="footer-image-container">
                 <a href="https://www.linkedin.com/in/matthewhays12" target="_blank" title="LinkedIn">
-                    <img src="Images/linkedin_logo.png" alt="LinkedIn Image" class="footer-image">
+                    <i class="fa-brands fa-linkedin icons" style="color: #ffffff;"></i>
                     <span class="footer-text">LinkedIn</span>
                 </a>
             </div>
