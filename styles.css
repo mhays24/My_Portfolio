@@ -41,6 +41,13 @@ html {
     border-radius: 8px;
 }
 
+.project-custom-image {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
 .python-skill-logo {
     max-width: 10%;
     height: auto;
